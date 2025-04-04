@@ -13,6 +13,10 @@ const pages = [
     href: "/random-todo/force-dynamic",
     name: "/random-todo/force-dynamic",
   },
+  {
+    href: "/suspense",
+    name: "/suspense",
+  },
 ];
 
 export default function Home() {
