@@ -1,5 +1,5 @@
-import { ComponentA } from "./_components/ComponentA";
-import { ComponentB } from "./_components/ComponentB";
+import { ComponentA } from "./_containers/ComponentA";
+import { ComponentB } from "./_containers/ComponentB";
 
 // > Server Componentsでは、Request Memoizationによって入力に対する出力を一定に保つことで、
 // > データフェッチをサポートしながらもレンダリングの範囲ではコンポーネントの純粋性を保てるよう設計されています。
